@@ -1,0 +1,210 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 0 15px;
+}
+
+/* Small Navbar */
+.small-navbar {
+    background-color: #222;
+    color: white;
+    padding: 10px 15px;
+}
+
+.small-navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.small-navbar ul li {
+    margin-right: 15px;
+}
+
+.small-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.small-navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Layouts */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.description-box {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.description-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.description-box p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Bento Grid */
+.bento-grid {
+    display: grid;
+    gap: 12px; /* Space between grid items */
+    grid-template-columns: repeat(2, minmax(80px, 1fr)); /* Two columns with a flexible minimum width */
+    grid-auto-rows: 80px; /* Ensures consistent row height */
+    position: relative;
+    justify-content: center; /* Centers the grid horizontally */
+    align-items: center; /* Centers the grid vertically */
+}
+
+.grid-item {
+    width: 100%; /* Grid item takes full width of its grid cell */
+    height: 100%; /* Grid item takes full height of its grid cell */
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: #ddd; /* Optional placeholder for empty grid items */
+}
+
+.bento-4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 45%;
+    height: 300px;
+}
+
+.bento-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: auto; /* Automatically adjust row heights */
+    gap: 10px; /* Space between grid items */
+    width: 160%; /* Make the grid take full width of its container */
+    height: 600px; /* Adjust height dynamically based on content */
+}
+.grid-container {
+    max-width: 400px; /* Limits the overall width */
+    margin: 0 auto; /* Centers the grid on the page */
+    padding: 50px; /* Adds some space around the grid */
+}
+
+.grid-item video,
+.grid-item img {
+    width: 100%; /* Ensures the image fills the grid item */
+    height: 100%; /* Ensures the image matches the grid item's height */
+    object-fit: cover; /* Keeps the image aspect ratio while filling the container */
+    border-radius: 5px; /* Matches your grid item styling */
+}
+
+
+.video-frame {
+    background-color: #444;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.view-more a {
+    text-decoration: none !important; /* Ensures no underline */
+    color: rgb(255, 255, 255) !important; /* Forces white text color */
+}
+.view-more {
+    margin-top: 125px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    align-self: flex-start; /* Ensures consistent alignment */
+}
+
+.view-more:hover {
+    background-color: #00f7ff;
+    color: #000;
+}
+
+.description-box {
+    width: 45%; /* Matches the width of the .image-box */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 10px; /* Space between the description and image */
+}
+
+/* Image Box */
+.image-box {
+    width: 100%; /* Ensures the box scales with its container */
+    max-width: 640px; /* Optional: Sets a maximum width for the image box */
+    height: auto; /* Adjusts height dynamically based on content */
+    overflow: hidden; /* Prevents any content from overflowing the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1 auto; /* Centers the image box */
+}
+
+.image-box img {
+    width: 100%; /* Makes the image responsive to the container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image covers the entire container without stretching */
+    border-radius: 5px; /* Adds rounded corners if needed */
+    max-height: 300px; /* Optional: Limits the image height */
+}
+
+
+/* Footer */
+.contact-section {
+    background-color: #222;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.contact-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-box p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-box blockquote {
+    font-size: 14px;
+    font-style: italic;
+    color: #bbb;
+    margin-top: 10px;
+}

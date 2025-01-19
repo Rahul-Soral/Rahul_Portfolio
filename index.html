@@ -15,15 +15,32 @@
 	<header>
 		<a href="#" class="logo-holder">
 			<div class="logo">R</div>
-			<div class="logo-text">Portfolio Website</div>
+			<div class="logo-text">Welcome to my Portfolio</div>
 		</a>
 		<nav>
 			<ul id="menu">
 				<li>
 					<a href="#">Home</a>
 				</li>
+				<li class="dropdown">
+					<a href="#My work" class="button yellow"><strong>My work *</strong></a>
+					<ul class="dropdown-menu">
+						<li><a href="design.html" target="_blank">My Designs</a></li>
+						<li><a href="blogs.html" target="_blank">My Blogs</a></li>
+						<li><a href="Reels.html" target="_blank">Best Reels</a></li>
+						<li><a href="Expertise.html" target="_blank">My Expertise</a></li>
+					</ul>
+				</li>
 				<li>
 					<a href="#skills">Skills</a>
+				</li>
+				<li class="dropdown">
+					<a href="#My work" class="button yellow"><strong>My Experience</strong></a>
+					<ul class="dropdown-menu">
+						<li><a href="PMI.html" target="_blank">Project Management</a></li>
+						<li><a href="BD.html" target="_blank">Business Development</a></li>
+						<li><a href="DM.html" target="_blank">Digital Marketing</a></li>
+					</ul>
 				</li>
 				<li>
 					<a href="#projects">Projects</a>
@@ -34,10 +51,10 @@
 			</ul>
 			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
 				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
 				</svg>
 			</a>
-		</nav>
+		</nav>		
 	</header>
 	<main>
 		<section class="hero container">
@@ -50,7 +67,7 @@
 						Driving impactful growth with strategic marketing, business development, and creative digital solutions. <span>Passionate about crafting strategies that connect ideas, inspire action, and deliver measurable success.</span>
 					</p>
 					<div class="call-to-action">
-						<a href="Rahul_resume.pdf" class="button black">
+						<a href="Rahul_resume.pdf" target="_blank" class="button black">
 							View Resume
 						</a>
 						<a href="mailto:rahulsoral36@gmail.com" class="button white">
@@ -59,10 +76,10 @@
 					</div>
 					<div class="social-links">
                         <div class ="call-to-action">
-						<a href="https://github.com/Rahul-Soral">
+						<a href="https://github.com/Rahul-Soral" target="_blank">
 							<img src="github.png" alt="GitHub" width="48" />
 						</a>
-						<a href="https://www.linkedin.com/in/rahul-soral/">
+						<a href="https://www.linkedin.com/in/rahul-soral/" target="_blank">
 							<img src="linkedin.png" alt="LinkedIn" width="48" />
 						</a>
                         </div>
@@ -138,17 +155,15 @@
 				<div class="right-column">
 					<h3>A bit about me</h3>
 					<p>
-                        Hi, I’m Rahul Soral, a passionate marketing strategist and business developer with hands-on experience in creating impactful digital campaigns and driving measurable growth for brands. Over the past year, I’ve honed my skills in content creation, social media strategy, and client acquisition through diverse projects that have increased engagement and delivered real results.					</p>
-					<p>
-                        I enjoy crafting creative strategies that combine data-driven insights with innovative approaches to connect with audiences and achieve business goals. Recently, I’ve been exploring global opportunities and focusing on leveraging tools like Google Analytics, Canva, and HubSpot to take campaigns to the next level.
+						Hi, I’m Rahul Soral, a marketing strategist and business developer with experience in creating impactful digital campaigns that drive growth and increase engagement. Over the past year, I’ve developed skills in content creation, social media strategy, and client acquisition, achieving real results with tools like Google Analytics, Canva, and HubSpot.					<p>
                     </p>
-				    <p> Currently, I’m working on mastering SEO techniques and advanced analytics to design smarter marketing strategies while keeping an eye on trends like AI in marketing and business automation. I’m also on the lookout for exciting remote roles that allow me to make a bigger impact globally.
-
+				    <p> I’m currently mastering SEO techniques and exploring trends like AI in marketing and business automation to design smarter strategies. Eager to take on global remote opportunities, I’m focused on leveraging data-driven insights to craft innovative approaches and make a bigger impact.
                     </p>
                     </div>
 			</div>
 		</section>
-		<section class="work-experience container">
+
+		<section id="My work" class="work-experience container">
 			<h2>
 				<small>Recent</small>
 				Work Experience
@@ -165,16 +180,17 @@
 					</figure>
 					<h3>Project Management Intern - Lucien Solutions</h3>
 					<div>March 2024 - June 2024</div>
-                    <ul>
-					<li> Achieved a 1066.67% increase in Instagram reach and over 1000% social media engagement.</li>
-                    <li> Conducted competitor analysis and proposed growth-focused business strategies.</li>
-                    <li>Collaborated across teams to create detailed reports and strategic marketing plans.</li>    
-                    </ul>
+					<ul>
+						<li> Achieved a 1066.67% increase in Instagram reach and over 1000% social media engagement.</li>
+						<li> Conducted competitor analysis and proposed growth-focused business strategies.</li>
+						<li>Collaborated across teams to create detailed reports and strategic marketing plans.</li>
+					</ul>
+					<a href="PMI.html" target="_blank" class="button black" >View More</a>
 				</article>
 				<article>
 					<figure>
 						<div>
-							<img src="BD.jpg" alt="SocioSip - Business Development Intern" width="100%" />
+							<img src="6193713.jpg" alt="SocioSip - Business Development Intern" width="100%" />
 							<figcaption>
 								Internship - Business Development
 							</figcaption>
@@ -182,11 +198,12 @@
 					</figure>
 					<h3>Business Development Intern - SocioSip</h3>
 					<div>August 2024 - October 2024</div>
-                    <ul>
-                        <li> Boosted client acquisition by 19% and successfully converted two key leads.</li>
-                        <li> Conducted market research to optimize lead-generation strategies.</li>
-                        <li>Enhanced client communication through cold calls and tailored solutions based on needs assessments.</li>    
-                    </ul>
+					<ul>
+						<li> Boosted client acquisition by 19% and successfully converted two key leads.</li>
+						<li> Conducted market research to optimize lead-generation strategies.</li>
+						<li>Enhanced client communication through cold calls and tailored solutions based on needs assessments.</li>
+					</ul>
+					<a href="Bd.html" target="_blank" class="button black">View More</a>
 				</article>
 				<article>
 					<figure>
@@ -196,18 +213,21 @@
 								Internship - Digital Marketing
 							</figcaption>
 						</div>
+						<button>View More</button>
 					</figure>
 					<h3>Digital Marketing Intern - Pride of India</h3>
 					<div>September 2024 - December 2024</div>
-                    <ul>
-                        <li> Increased engagement across four social media platforms through innovative strategies.</li>
-                        <li> Designed a 5-month social media calendar with 25 graphic posts, 3 reels, and 11 blogs.</li>
-                        <li>Gained proficiency in tools like Meta Suite, Asana, and Google Trends.</li>    
-                    </ul>
+					<ul>
+						<li> Increased engagement across four social media platforms through innovative strategies.</li>
+						<li> Designed a 5-month social media calendar with 25 graphic posts, 3 reels, and 11 blogs.</li>
+						<li>Gained proficiency in tools like Meta Suite, Asana, and Google Trends.</li>
+					</ul>
+					<a href="DM.html" target="_blank" class="button black">View More</a>
 				</article>
-
 			</div>
 		</section>
+		
+
 		<section id="projects" class="bento container">
 			<h2>
 				<small>
@@ -216,16 +236,16 @@
 				Completed Projects
 			</h2>
 			<div class="bento-grid">
-				<a href="https://github.com/Rahul-Soral/Instagram_Reach_Analysis" class="bento-item">
+				<a href="https://github.com/Rahul-Soral/Instagram_Reach_Analysis" target="_blank" class="bento-item">
 					<img src="Insta.webp" alt="Instagram Reach Analysis width="100%" />
 				</a>
-				<a href="https://github.com/Rahul-Soral/Python-projects" class="bento-item">
+				<a href="https://github.com/Rahul-Soral/Python-projects" target="_blank" class="bento-item">
 					<img src="Festive.webp" alt="Festive Sales Analysis" width="100%" />
 				</a>
-				<a href="https://github.com/Rahul-Soral/Excel-project" class="bento-item">
+				<a href="https://github.com/Rahul-Soral/Excel-project" target="_blank" class="bento-item">
 					<img src="Road.webp" alt="Road Accident Dashboard Analysis" width="100%" />
 				</a>
-				<a href="https://github.com/Rahul-Soral/SQL-projects" class="bento-item">
+				<a href="https://github.com/Rahul-Soral/SQL-projects" target="_blank" class="bento-item">
 					<img src="Restaurant.webp" alt="Restaurant revenue Analysis" width="100%" />
 				</a>
 			</div>
@@ -242,7 +262,7 @@
 					<h3>AI Chatbot</h3>
 					<p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
 					<p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a role open in your company and you think I'd be a good fit for, please get in touch!</p>
-					<a href="Rahul_resume.pdf" class="button black">Download Resume</a>
+					<a href="Rahul_Resume.pdf" class="button black">Download Resume</a>
 				</div>
 				<div class="chat-box">
 					<div class="scroll-area">
@@ -262,7 +282,7 @@
 						</ul>
 					</div>
 					<div class="chat-message">
-						<input type="text" placeholder="Hey Rahul, what skills are you best at?">
+						<input type="text" placeholder="Hehe!! I am under construction will be back soon 😁">
 						<button class="button black">Send</button>
 					</div>
 				</div>

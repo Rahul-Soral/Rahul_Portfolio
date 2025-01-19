@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs</title>
+    <style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav .back {
+            font-size: 16px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav .contact {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .image-section {
+            margin: 10px;
+            text-align: center;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 2px solid #ddd;
+            transition: transform 0.3s ease;
+        }
+
+        .image-section img:hover {
+            transform: scale(1.05);
+        }
+
+        .heading-box {
+            padding: 15px 10px;
+            background-color: #333;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .heading-box a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        .heading-box a:hover {
+            color: #007bff;
+        }
+
+        .description-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.description-box {
+    width: 35%;
+    padding: 80px;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.8; /* Adjust the gap between lines */
+}
+
+
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="back">&#8592; Back</a>
+        <a href="mailto:rahulsoral36@gmail.com" class="contact">Contact Me</a>
+    </nav>
+
+    <section class="description-section">
+        <div class="video-section" style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+            <!-- Video 1 -->
+            <div class="video-wrapper" style="position: relative; width: 30%; max-width: 200px;">
+                <video autoplay muted loop playsinline style="width: 100%; height: auto; border-radius: 10px;">
+                    <source src="Video-512.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="https://www.instagram.com/reel/DCUlb1QyEwl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" style="position: absolute; top: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 5px 10px; font-size: 12px; border-radius: 5px; text-decoration: none;">
+                    Watch it
+                </a>
+            </div>
+            
+            <!-- Video 2 -->
+            <div class="video-wrapper" style="position: relative; width: 30%; max-width: 200px;">
+                <video autoplay muted loop playsinline style="width: 100%; height: auto; border-radius: 10px;">
+                    <source src="Video-298.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="https://www.instagram.com/reel/DDAVRNNox4P/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" style="position: absolute; top: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 5px 10px; font-size: 12px; border-radius: 5px; text-decoration: none;">
+                    Watch it
+                </a>
+            </div>
+            
+            <!-- Video 3 -->
+            <div class="video-wrapper" style="position: relative; width: 30%; max-width: 200px;">
+                <video autoplay muted loop playsinline style="width: 100%; height: auto; border-radius: 10px;">
+                    <source src="Video-556.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="https://www.instagram.com/reel/DCcKMnoSCm5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" style="position: absolute; top: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 5px 10px; font-size: 12px; border-radius: 5px; text-decoration: none;">
+                    Watch it
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="gallery">
+        <div class="image-section">
+            <img src="25.png" alt="Social Media Guide for Lawyers">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/p/DC67-ZYIVaz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="22.png" alt="How Social Media Presence Adds Value to the Business">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/p/DCPdz-hTolJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="20.png" alt="Moringa Smoothie Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/p/DB1kyF7IhJg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="17.png" alt="Focaccia Bread Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DBeLr4kT96O/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="21.png" alt="Sourdough Bread Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DB6seEPTwIu/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="23.png" alt="Rigatoni Pasta Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DCw1vFjIfdL/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="24.png" alt="Banana Nut Muffin Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DCXM33_zODn/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="19.png" alt="Coconut Flour Cake Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DBy6BUSoMnn/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="18.png" alt="Fried Chicken Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/reel/DByk9JJI2Ak/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="15.png" alt="English Muffins Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DBEtKncI8vF/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="13.png" alt="Onion Soup Recipe">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/reel/DAthK4SIa0e/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="10.png" alt="Healthy Pantry Staples">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DAbXwivo25W/">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="7.png" alt="Indian Split Masur Red Lentils">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DALuNgeIQZ5/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="14.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DA6NOizIg53/">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="8.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DATpprhyJya/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="16.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/reel/DBT8tTYI0fT/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="11.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DAjFNVnT_w-/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="9.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DAWGo1MzF2h/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="6.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DAJc1Ptofd4/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="5.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DAG1LCgIRl9/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="4.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/DABcG4BID0N/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="3.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/C_3kF3KIF-B/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="2.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/C_x7VvQzljV/" target="_blank">Watch it</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="1.png" alt="Brown Rice Flour">
+            <div class="heading-box">
+                <a href="https://www.instagram.com/prideindiabrands/p/C_sphF9yFGL/" target="_blank">Watch it</a>
+            </div>
+        </div>
+    </section>    
+
+    <footer>
+        <p>Contact me at: <a href="mailto:yourname@example.com">rahulsoral36@gmail.com</a></p>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
